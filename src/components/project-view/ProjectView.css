@@ -1,0 +1,155 @@
+@media (max-width:649px){
+
+    #project{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+        justify-content: space-between;
+        margin-top: 0;
+        color: white;
+        padding: 0;
+        z-index: 98;
+    }
+
+    #description-part{
+        background-color: transparent;
+        height: 100%;
+    }
+
+    #img-part{
+        width: 100%;
+    }
+    #img-part img{
+        width: 100%;
+    }
+
+}
+
+@media (min-width:650px) and (max-width:834px){
+    #project{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+        justify-content: space-between;
+        margin: 6rem 0 0 0;
+        color: white;
+        padding: 0 !important;
+        z-index: 98;
+    }
+
+    #img-part{
+        width: 100%;
+    }
+    #img-part img{
+        width: 100%;
+    }
+    #description-part{
+        background-color: #1E2C40;
+        min-width: 100%;
+        height: 100%;
+    }
+}
+
+@media (min-width:834px) and (max-width:1520px){
+    #project{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 6rem;
+        color: white;
+        padding: 0;
+        z-index: 98;
+    }
+    #img-part img{
+        max-width: 22rem;
+    }
+    #description-part{
+        background-color: #1E2C40;
+        height: 100%;
+    }
+}
+
+.project{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 6rem;
+    color: white;
+    padding: 0 6rem;
+    z-index: 999;
+}
+
+.description-part{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #1E2C40;
+    padding: 2rem;
+    height: 24rem;
+}
+.description-part h4{
+    font-size: 1.5rem;
+}
+.description-part p{
+    font-size: .9rem !important;
+    line-height: 30px !important;
+}
+.img-part{
+    line-height:0;
+}
+
+.img-part img{
+    max-width: 32rem;
+}
+
+.links-part{
+    margin-top: 1.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.link-view-project{
+    text-decoration: none;
+    font-weight: bold;
+    padding: .3rem 0;
+    border: 5px bisque solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: white;
+}
+
+.github-icon{
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-size: 2.2rem;
+}
+
+.technologies-part{
+    margin-top: 1.2rem;
+    display: flex;
+}
+
+.icon-technology{
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 2rem;
+}
+
+.technology{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 .5rem;
+}
+
+.technology p{
+    margin: 0 !important;
+    padding: 0 !important;
+}

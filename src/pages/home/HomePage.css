@@ -1,0 +1,371 @@
+/* mobile size */
+@media (max-width:649px){
+    #video-capsula video{
+        max-width: 15rem;
+        margin-top: 4rem;
+    }
+
+    #presentation-mobile{
+        height: 80vh;
+        margin: 0;
+        display: flex;
+        flex-direction: column !important;
+        align-items: center;
+    }
+
+    #presentation-mobile h1{
+        font-size: 2.4rem;
+    }
+
+    #presentation-mobile h4{
+        font-size: 1.2rem;
+    }
+
+    #technologies-section{
+        margin: 2rem 2rem;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-row-gap: 2rem;
+    }
+
+    #technology-icon{
+        color: rgba(255, 255, 255, 0.7);
+        font-size: 4rem;
+    }
+
+    #section-about{
+        padding: 0;
+    }    
+
+    #single-technology{
+        margin-top: 2rem;
+    }
+
+    #single-technology p{
+        font-size: 1.2rem;
+       
+    }
+    #single-technology p:last-of-type{
+        font-size: 0.9rem;
+       
+    }
+
+    #section-city {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #section-projects{
+        padding: 0;
+    }
+
+    #section-city img{
+        width: 140%;
+    }
+
+    #margin-for-mobile{
+        margin-bottom: 4rem;
+    }
+
+    #section-social-media a{
+        color: white;
+        font-size: 2rem;
+        margin: 0 1.2rem;
+    }
+    #sun{
+        width: 8rem;
+        height: 8rem;
+        top: 40%
+    }
+
+}
+
+/* teblet size */
+@media (min-width:650px) and (max-width:700px){
+
+    #presentation-mobile{
+        height: 80vh;
+        padding: 0 4rem;
+        margin: 0;
+    }
+
+    #video-capsula video{
+        max-width: 15rem;
+        margin-top: 4rem;
+    }
+
+    #presentation-mobile h1{
+        font-size: 2.8rem;
+    }
+
+    #presentation-mobile h4{
+        font-size: 1.5rem;
+    }
+
+    #section-about{
+        padding: 0;
+    }
+    
+    #technologies-section{
+        margin: 2rem 2rem;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-row-gap: 2rem;
+    }
+
+    #technology-icon{
+        color: rgba(255, 255, 255, 0.7);
+        font-size: 4rem;
+        margin-top: 2rem;
+    }
+
+    #margin-for-mobile{
+        margin-bottom: 4rem;
+    }
+    #sun{
+        width: 8rem;
+        height: 8rem;
+        top: 40%
+    }
+    
+}
+
+@media (min-width:701px) and (max-width:1300px){
+    #presentation-mobile{
+        height: 80vh;
+        padding: 0 4rem;
+        margin: 0;
+    }
+
+    #video-capsula video{
+        max-width: 15rem;
+        margin-top: 4rem;
+    }
+
+    #presentation-mobile h1{
+        font-size: 2.8rem;
+    }
+
+    #presentation-mobile h4{
+        font-size: 1.5rem;
+    }
+
+    #section-about{
+        padding: 0 5rem;
+    }
+    
+    #technologies-section{
+        margin: 2rem 2rem;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-row-gap: 2rem;
+    }
+
+    #technology-icon{
+        color: rgba(255, 255, 255, 0.7);
+        font-size: 4rem;
+        margin-top: 2rem;
+    }
+
+    #margin-for-mobile{
+        margin-bottom: 4rem;
+    }
+    #sun{
+        width: 12rem;
+        height: 12rem;
+        top: 35%
+    }
+
+}
+
+@media(min-width:1300px) and (max-width:1700px){
+    #technologies-section{
+        margin: 2rem 6.5rem;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-row-gap: 2rem;
+    }
+
+    #technology-icon{
+        color: rgba(255, 255, 255, 0.7);
+        font-size: 4rem;
+        margin-top: 2rem;
+    }
+}
+
+.presentation{
+    margin-top: 6rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.presentation h1{
+    color: white;
+    font-size: 4rem;
+}
+
+.presentation h4{
+    color: white;
+    font-size: 1.5rem;
+}
+
+.video-capsula video{
+    max-width: 25rem;
+}
+
+/* section styles */
+
+.section{
+    text-align: center;
+    margin-top: 15rem;
+}
+
+.section h3{
+    color: white;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+.section p{
+    text-align: justify;
+    color: white;
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
+    line-height: 40px;
+}
+
+/* section projects */
+
+.section-projects{
+    text-align: center;
+    margin-top: 15rem;
+    padding: 0 10rem;
+}
+
+.section-projects h3{
+    color: white;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+.section-projects p{
+    text-align: justify;
+    color: white;
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
+    line-height: 40px;
+}
+
+
+/* section about styles */
+
+.section-about{
+    text-align: center;
+    margin-top: 15rem;
+    padding: 0 10rem;
+}
+
+.section-about h3{
+    margin-top: 15rem;
+    color: white;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+.section-about p{
+    text-align: justify;
+    color: white;
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
+    line-height: 40px;
+    padding: 0 3rem;
+}
+
+
+/* technologies part ======================== */
+.technologies-section{
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+}
+
+.technology-icon{
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 5rem;
+}
+
+.single-technology{
+    display: flex;
+    margin: 0 1.5rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.single-technology p{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+/* section of the city========== */
+
+.section-city{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    line-height:0;
+}
+
+.sun{
+    position: absolute;
+    width: 20rem;
+    height: 20rem;
+    top: 22%;
+    border-radius: 100%;
+    background-color: #f7df1e;
+    z-index: 78;
+    -webkit-box-shadow: 0px 0px 46px 17px #f7df1e; 
+    box-shadow: 0px 0px 46px 17px #f7df1e;
+}
+
+.section-city img{
+    margin-top: 10rem;
+    width: 100%;
+    z-index: 90;
+}
+
+.section-contact{
+    background-color: #190254;
+    padding-bottom: 2rem;
+}
+
+.section-social-media{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 3rem;
+    background-color: #190254;
+}
+
+.section-social-media a{
+    color: white;
+    font-size: 2rem;
+    margin: 0 1.8rem;
+}
+
+/* stars */
+
+#stars {
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    width:100%;
+    height:100%;
+    display:block;
+    background: transparent url(https://res.cloudinary.com/adivinity/image/upload/v1651462871/stars-background_ejnc3z.png) repeat top center;
+    z-index:0;
+}

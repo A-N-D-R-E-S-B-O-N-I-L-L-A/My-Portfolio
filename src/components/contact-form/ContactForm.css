@@ -1,0 +1,61 @@
+/* mobile size */
+@media (max-width:1200px){
+
+    #contact-form{
+        padding:  6rem 0;
+    }
+
+    #contact-form h3{
+        font-size: 1.8rem;
+    }
+
+}
+
+form {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    padding: 6rem 16rem;
+}
+
+form h3{
+    color: white;
+    font-size: 2.5rem;
+}
+
+form input, textarea{
+    padding: .8rem;
+    margin-top: 2rem;
+    width: 100%;
+    background-color: #290488;
+    font-weight: bold;
+    border: none;
+    color: rgba(256, 256, 256, .7);
+}
+
+form input:focus, textarea:focus{
+    outline: none;
+}
+
+
+.invalid{
+    border: red 1px solid;
+}
+
+form button {
+    padding: .8rem;
+    margin-top: 2rem;
+    width: 100%;
+    background-color: transparent;
+    font-weight: bold;
+    border: rgba(256, 256, 256, .7) 1px solid;
+    color: rgba(256, 256, 256, .7);
+    cursor: pointer;
+}
+
+.invalid-message{
+    text-align: left;
+    font-size: .8rem;
+    margin-top: .4rem;
+    color: red;
+}
