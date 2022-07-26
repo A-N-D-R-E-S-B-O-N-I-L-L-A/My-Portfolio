@@ -1,0 +1,88 @@
+@media (max-width:650px){
+    #navbar{
+        padding: 2.5rem 3rem;
+    }
+    #logo{
+        width: 3.5rem;
+    }
+    #bar-icon{
+        display: flex;
+    }
+    #links{
+        display: none;
+    }
+}
+
+@media (min-width:650px) and (max-width:1300px){
+    #navbar{
+        padding: 2.5rem 5rem;
+    }
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background: transparent;
+    align-items: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    z-index: 999;
+    padding: 2.5rem 0;
+    background-color: transparent;
+    padding: 2.5rem 10rem;
+}
+
+.navbar.active {
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,0.2612395299916842) 45%, rgba(0,0,0,0) 99%);
+
+}
+
+.logo{
+    width: 4.5rem;
+}
+
+.links a{
+    color: white;
+    margin-left: 1.5rem;
+    font-size: 1.2rem;
+    font-style: none;
+    text-decoration:none;
+    cursor: pointer;
+}
+
+.bar-icon{
+    cursor: pointer;
+    display: none;
+    color: white;
+    font-size: 2.2rem;
+}
+
+.menu{
+    background-color: #1E2C40;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 0;
+    height: 100%;
+    padding: 3rem;
+    line-height: 50px;
+}
+
+.menu a{
+    color: white;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.times-icon{
+    cursor: pointer;
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: white;
+    font-size: 3rem;
+    padding: 3rem;
+}

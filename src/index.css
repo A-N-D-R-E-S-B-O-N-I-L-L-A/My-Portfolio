@@ -1,0 +1,35 @@
+@media (max-width:649px){
+    #margin-page{
+        padding: 0 3rem;
+    }
+}
+
+@media (min-width:650px) and (max-width:1300px){
+    #margin-page{
+        padding: 0 5rem;
+    }
+}
+
+*{
+    padding: 0;
+    margin:  0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+textarea {
+    resize: none;
+}
+
+.container{
+    padding: 8rem 0 0 0;
+    overflow-x: hidden;
+    background: linear-gradient(180deg, rgba(36,52,76,1) 35%, rgba( 135, 206, 235, 1) 99%);
+    z-index: 0;
+}
+
+.margin-page{
+    padding: 0 10rem;
+}
+
+
